@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Sinergia, diseño UX, publicidad digital, diseño grafico, diseño web, redes sociales, agencia">
+    <meta name="keywords"
+        content="Sinergia, diseño UX, publicidad digital, diseño grafico, diseño web, redes sociales, agencia">
     <title>Sinergia</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600&display=swap"
         rel="stylesheet">
@@ -15,7 +16,32 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="./image/sinergia-logo.png" alt="logosinergia"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="./image/sinergia-logo.png" alt="logosinergia"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="manifiesto.html">  MANIFIESTO <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="proyectos.html">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="workshop.html">WORKSHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- <a href="index.html"><img src="./image/sinergia-logo.png" alt="logosinergia"></a>
         <nav>
             <ul class="hover">
                 <li><a href="manifiesto.html">MANIFIESTO </a></li>
@@ -24,13 +50,10 @@
                 <li><a href="workshop.html">WORKSHOP</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
-    <div class="slider__banner">
-        <img src="./image/banner3.png" alt="header-workshop">
-        <div class="titulo__principal">
-            <h2>Workshop</h2>
-        </div>
+    <div class="slider__workshop">
+            <h2>WORKSHOP</h2>
     </div>
     <div class="container">
         <div class="workshop">
@@ -46,57 +69,59 @@
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="textoworkshop">
-                    <h4>Titulo Workshop1</h4>
-                    <h6>Subtitulo Workshop1</h6>
-                    <p>Descripción del workshop</p>
+                    <h4>Diseño UX/UI</h4>
+                    <h6>Arquitectura de información</h6>
+                    <p>Diseño de tarjeta, arquitectura informacional, UI claro contra oscuro, espacio en blanco y
+                        jerarquía visual.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="videoworkshop">
-                    <iframe src="https://www.youtube.com/embed/F0cN6AgtUDM" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/RCILq47rQww" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="textoworkshop">
-                    <h4>Titulo Workshop1</h4>
-                    <h6>Subtitulo Workshop1</h6>
-                    <p>Descripción del workshop</p>
+                    <h4>Wordpress</h4>
+                    <h6>Curso completo Wordpress</h6>
+                    <p>Instalación, entradas, medios, páginas, apariencias, plugins y mucho más.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="videoworkshop">
-                    <iframe src="https://www.youtube.com/embed/F0cN6AgtUDM" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/HiXLkL42tMU" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="textoworkshop">
-                    <h4>Titulo Workshop1</h4>
-                    <h6>Subtitulo Workshop1</h6>
-                    <p>Descripción del workshop</p>
+                    <h4>Git & GitHub</h4>
+                    <h6>Curso de Git y Github desde cero</h6>
+                    <p>Aprende a dominar una de las herramienta más utilizadas por todos los desarrolladores web,
+                        programadores y expertos en código profesionales, llamada Git.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="videoworkshop">
-                    <iframe src="https://www.youtube.com/embed/F0cN6AgtUDM" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/cqMfPS8jPys" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="textoworkshop">
-                    <h4>Titulo Workshop1</h4>
-                    <h6>Subtitulo Workshop1</h6>
-                    <p>Descripción del workshop</p>
+                    <h4>HTML</h4>
+                    <h6>Curso básico de HTML</h6>
+                    <p>Cómo funciona y como empezar a crear un documento. </p>
                 </div>
             </div>
         </div>
@@ -127,12 +152,23 @@
                     <div class="grillafooter3">
                         <h5>Redes Sociales</h5>
                         <div class="logos__redes">
-                            <img src="./image/face.png" alt="Facebook">
-                            <img src="./image/insta.png" alt="Instagram">
-                            <img src="./image/behance.png" alt="Behance">
+                            <a href=""><img src="./image/face.png" alt="Facebook"></a>
+                            <a href=""><img src="./image/insta.png" alt="Instagram"></a>
+                            <a href=""><img src="./image/behance.png" alt="Behance"></a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="footer-copy">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <div class="w-container">
+                                    <div class="footer-text">Copyright Sinergia Digital.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </footer>
